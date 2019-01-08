@@ -2,11 +2,17 @@ button {
     width: 250px;
     height: 100px;
     margin: auto;
-    display: block;
+    display: block;  
+    font-size: 2rem;
 }
 
-span {
+span {    
+    font-size: 2rem;
     background: red;
+    margin: auto;
+    display: block;  
+    width: fit-content;
+    padding: 25px;
 }
 
 app-input-grid {

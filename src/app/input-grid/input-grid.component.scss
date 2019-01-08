@@ -23,6 +23,8 @@ input {
 
 .mat-row {
     border: 0px solid;
+    width: fit-content;
+    margin: auto;
 }
 
 .mat-row:nth-of-type(3n) mat-cell {
