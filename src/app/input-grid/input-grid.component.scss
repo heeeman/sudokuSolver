@@ -7,6 +7,10 @@ mat-cell:nth-of-type(3n + 1 ) {
     border-left: 2px solid black;
 }
 
+mat-cell:nth-of-type(9n) {
+    border-right: 2px solid black;
+}
+
 .mat-form-field-appearance-legacy .mat-form-field-underline {
      height: 0px !important;
 }
@@ -17,7 +21,23 @@ input {
     max-width: 10px;
 }
 
-.mat-row:nth-of-type(3n) {
+.mat-row {
+    border: 0px solid;
+}
+
+.mat-row:nth-of-type(3n) mat-cell {
     border-bottom: 2px solid black;
+}
+
+.mat-row:first-child mat-cell {
+    border-top: 2px solid black;
+}
+
+.grid-container {
+    margin: 25px;
+}
+
+mat-cell:first-of-type, mat-cell:last-child {
+    padding: 0px 10px !important;
 }
 

@@ -1,4 +1,4 @@
-<div>
+<div class="grid-container">
   <span>
 
   </span>
@@ -10,7 +10,7 @@
         <!--<mat-header-cell *matHeaderCellDef> Name </mat-header-cell>-->
         <mat-cell *matCellDef="let element">
           <mat-form-field floatLabel="never">
-            <input matInput [value]="element[k]" [(ngModel)]="element[k]">
+            <input matInput [value]="element[k]" [(ngModel)]="element[k]" type="number">
           </mat-form-field>
         </mat-cell>
       </ng-container>      
